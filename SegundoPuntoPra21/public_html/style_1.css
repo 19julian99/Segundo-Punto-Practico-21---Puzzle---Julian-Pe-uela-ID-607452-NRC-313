@@ -1,0 +1,63 @@
+/* Los tipos de letra no estándar hay que importarlos */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+#iconos{
+    transform: rotate(0deg);
+    width: 100px; height: 100px;
+
+}
+
+#segundos{
+    font-family: Open Sans;
+    margin: 0px;
+}
+
+#minutos{
+    font-family: Open Sans;
+    margin: 0px;
+}
+#div0 {width: 241px; height: 128px; padding: 50xp; border: 1px solid #aaaaaa; align-content:center ;}
+#div1 {width: 241px; height: 128px; padding: 50xp; border: 1px solid #aaaaaa; align-content: center;}
+#div2 {width: 241px; height:128px; padding: 50xp; border: 1px solid #aaaaaa; align-content: center;}
+#div3 {width: 241px; height: 128px; padding: 50xp; border: 1px solid #aaaaaa; align-content: center;}
+#div4 {width: 241px; height: 128px; padding: 50xp; border: 1px solid #aaaaaa; align-content: center;}
+#div5 {width: 241px; height: 128px; padding: 50xp; border: 1px solid #aaaaaa; align-content: center;}
+#div6 {width: 241px; height: 128px; padding: 50xp; border: 1px solid #aaaaaa; align-content: center;}
+#div7 {width: 241px; height: 128px; padding: 50xp; border: 1px solid #aaaaaa; align-content: center;}
+#div8 {width: 241px; height: 128px; padding: 50xp; border: 1px solid #aaaaaa; align-content: center;}
+#div9 {width: 241px; height: 128px; padding: 50xp; border: 1px solid #aaaaaa; align-content: center;}
+#div10 {width: 241px; height: 128px; padding: 50xp; border: 1px solid #aaaaaa; align-content: center;}
+#img0  {width: 241px; height: 128px; }
+#img1  {width: 241px; height: 128px; }
+#img2  {width: 241px; height: 128px; }
+#img3  {width: 241px; height: 128px; }
+#img4  {width: 241px; height: 128px; }
+#img5  {width: 241px; height: 128px; }
+#img6  {width: 241px; height: 128px; }
+#img7  {width: 241px; height: 128px; }
+#img8  {width: 241px; height: 128px; }
+#img9  {width: 241px; height: 128px; }
+
+#tabla {width: 241px; height: 128px; }
+
+
+body{margin:0; padding:0; font-family:Helvetica; border: #000 5px dashed;
+      height: 5000x;
+      align-content: center;
+      width: 1024px; margin-left: 10%; } 
+
+
+
+div#content{margin-top:10px;}
+
+div#conf{padding-bottom:10px;}
+div.posic{display:none;
+    
+}
+table{border:2px solid red; zoom:01.7; }
+
+td.pieza{background:url(https://www.neohouss.com/wp-content/uploads/2019/10/fac78236-casa_prefabricada.jpg); transition:.3s ease-in-out; -moz-transition:.3s ease-in-out; -webkit-transition:.3s ease-in-out; -o-transition:.3s ease-in-out; cursor:pointer;}
+
+
+
+div#titulo{color:#FFF; font-size:30px; font-weight:bold; text-shadow:1px 1px 8px #00e800, -1px -1px 8px #00e800, 1px -1px 8px #00e800, -1px 1px 8px #00e800;}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--creador julian peñuela id:607452 -->
+<html lang="en">
+    <head>
+        <!--a continacuion tenemos-->
+        <title>Rompecabezas</title>
+
+        <!--A continuacion tendremos el lin que hace referencia a las hojas de estilo del programa-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <!--Aqui empieza el cuerpo de la pagina donde tenemos todo el contenido visual
+    usamos muchas etiquetas div ya que al manejar elementos dentro de ellos y darles un mejor oden.-->    
+    <body >
+        <div align="center">
+            <!--A continuacion tenemos el titulo de la pagina-->
+            <h2>Rompecabezas</h2>
+            <!--Usamos la etiqueta p para realizar un parrafo donde describimos algo-->
+            <p>Seleccione a continuacion la imagen si quiere subir una imagen agreguela a la carpeta
+                img de este documento y llamela f5.jpg ojo a la extencion debe ser jpg</p> 
+        </div>
+        <div align="center">
+            <img  id="myImage" src="img/f1.jpg" style="width:300px">
+            <!--Usamos la etiqueta p para realizar un parrafo donde describimos algo-->
+            <p>A continuacion mire las imagenes disponibles para el rompecabezas.</p>
+            <!--A continucion definimos 4 botones con el atributo .getElementById para cambiar entre imagenes como vimos
+            en clase  y se les pone un nombre, y usamos un src para llamar a las imagen con su respectiva direccion-->
+            <button onclick="document.getElementById('myImage').src = 'img/f1.jpg'">bicicleta (Boton1)</button>
+            <button onclick="document.getElementById('myImage').src = 'img/f2.jpg'">Casa(Boton2)</button>
+            <button onclick="document.getElementById('myImage').src = 'img/f3.jpg'">Paisaje(Boton3)</button>
+            <button onclick="document.getElementById('myImage').src = 'img/f4.jpg'">Frase Uniminuto(Boton4)</button>
+        </div>
+        <div align="center">
+            <!--Usamos la etiqueta p para realizar un parrafo donde describimos algo-->
+            <p>Para validar que imagenes tiene en el container puede cambiarles el nombre u usarlas por medio de la soguiente herramienta</p>
+            <div>
+                <!-- A continuacion del siguiente div tendremos un codigo de html y canvas para tener un visro de archivos incluidos en el html
+                con esto lograremos ver archivos dentro del pc-->
+                <div class="tool-html">
+
+                    <canvas id="5e7530567ab64" style="display: none;"></canvas>
+                    <div class="widget-div-input-file">
+                        <input type="file" id="5e7530567ab64-input" name="image" onchange="loadInputImage('5e7530567ab64', 'ninguno', 'image')" />
+                    </div>
+                    <div id="5e7530567ab64-div-image" class="widget-div-image">
+                        <!-- aca se va a insertar la imagen -->
+                    </div>
+                </div>	
+                <div class="grid-item tam12" id="div-grid-elemento-5e7530567ab75"></div>
+                <div class="div-elemento div-elemento-input" id="div-elemento-5e7530567ab75">
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div align="center">
+            <!--Usamos la etiqueta p para realizar un parrafo donde describimos algo-->
+            <p>De click encima del Rompecabeza que desea ver , si desea volver seleccione el boton de home</p>
+            <!--A continuacion tenemos botones con referencias a otras paginas dentro del html-->
+            <a href="Rom1.html"  ><img id="iconos" src="img/uno.png" width="300" ></a>
+            <a href="Rom2.html"  ><img id="iconos" src="img/dos.png" width="300" ></a>
+            <a href="Rom3.html"  ><img id="iconos" src="img/3.png" width="300" ></a>
+            <a href="Rom4.html"  ><img id="iconos" src="img/cua.png" width="300" ></a>
+        </div>
+
+        <!--A continuacion tenemos el footer de la pagina con la informacion de la clase y el diseñador-->
+        <div class="pie" align="center">
+            <!--Usamos la etiqueta p para realizar un parrafo donde describimos algo-->
+            <p>Julian Peñuela© ID:607452 </p>
+            <p>Programacion web </p>
+            <p>Alonso Guevara Perez</p>
+        </div>
+
+
+    </body>
+</html>

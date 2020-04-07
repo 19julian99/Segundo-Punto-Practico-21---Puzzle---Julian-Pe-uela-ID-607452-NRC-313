@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--creador julian peñuela id:607452 -->
+ <!-- -->
+<html>
+    <head>
+        <!--A continuacion  tenemos el titulo de la pagina -->
+        <title>Imagenes</title>
+        <!--Tenemos una etiqueta link la cual nos hace una referencia a una hoja de estilo la
+        cual se aplica en esta pagina-->
+        <link rel="stylesheet" type="text/css" href="style_1.css">
+       <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--A continuacion tenemos dos etiquetas de script que llaman por medio de un src a un documento 
+        de javascript en  la cual se contienen el cronometro y el codigo de partir imagenes, si accedemos
+        a los script los encontraremos documentados a cabalidad-->
+        <script src="crono.js"></script>
+        <script src="split.js"></script>
+        <meta name="title" content="Cronometro en javascript">
+        <meta name="description" content="Cronometro en javascript">
+        <meta name="keywords" content="código,cronometro,javascript">
+
+
+
+
+    </head>
+
+    <body>
+        <!--tenemos todos los elementos del body dentro de una etiqueta center para centrar todos los elementos-->
+    <center>
+        <!--Tenemos una etiqueta embed la cual permite que la pagina apenas se abra reproduczca una cancion-->
+        <embed src="img/fondo.mp3" autostarty="true" loop="true" volume="80" width="0" height="0">
+        <!--Tenemos una etiqueta h1 para un titulo en la paginas-->
+        <h1>Rompecabezas</h1>
+        <!--tenemos a continuacion select donde podremos elejir entre 3 opciones para dividir el rompecabezas
+        este div tiene asinado un id llamado cof que respondera a la configuracion que tenga en el CSS-->
+        <div id='conf'>
+            <span>Nro de piezas:</span>
+            <select id='piezas'>
+                <option value='4'>4</option>
+                <option value='9'>9</option>
+                <option value='16'>16</option>
+    <!--CPosteriormente del selecte tenemos un boton de barajar las imagen  y por ultimos despues de ek
+    tenemos un span para seleccionar el cuadro y en cuanto queremos partirlo-->
+            </select><input type='button' id='barajar' value='Barajar' />
+            
+        </div>
+        <div class="crono_wrapper">
+            <!--a acontinuacion tenemos dos etiquetas h las cuales nos escriben en la ventana  texto y los numeros del cronometro con un 
+            id para hacer la respectiva llamada del css y de script-->
+            <h2>el tiempo que vas armando este puzzle es:</h2>
+            <h2 id='crono'>  00:00:00</h2>
+            <!--A  continuacion definimos 3 botones con comandos para el cronometro -->
+            <h3>Para reiniciar el cronometro debe detenerlo y ahi si reiniciar.</h3>
+            <input type="button" value="Empezar (t)" onclick="Empezar(this);">
+            <input type="button" value="Detener (t)" onclick="Detener(this);">
+            <input type="button" value="Reiniciar (t)" onclick="Reiniciar(this);">
+            <!--Por ultimo tenemos dos botones en los cuales si queremos reiniciar la pagina nos hace una redireccion a l
+            a misma pagina por medio de un href y otra para cambiar el rompecabeza volviendo al index-->
+            <a href="Rom2.html"  ><input type="button" value="Reiniciar rompecabezas" ></a>
+            <a href="index.html"  > <input type="button" value="cambiar imagen" onclick="empezarDetener(this);"></a>
+        </div>
+
+
+        <div id='content' align='center'>
+
+
+        </div>
+
+    </center>         
+</body>
+
+</html>
